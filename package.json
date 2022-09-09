@@ -1,0 +1,34 @@
+{
+  "name": "pep440conv",
+  "version": "1.0.0",
+  "description": "Simple stdin/stdout-based utilities for converting to and from PEP-440 semver strings.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lambdacasserole/incv.git"
+  },
+  "keywords": [
+    "version",
+    "pep",
+    "440",
+    "python",
+    "semver"
+  ],
+  "author": "Saul Johnson <saul.a.johnson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lambdacasserole/pep440conv/issues"
+  },
+  "homepage": "https://github.com/lambdacasserole/pep440conv#readme",
+  "bin": {
+    "topep440": "./toPep440.js",
+    "frompep440": "./fromPep440.js"
+  },
+  "dependencies": {
+    "get-stdin": "^9.0.0"
+  }
+}
